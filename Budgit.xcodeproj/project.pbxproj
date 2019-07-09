@@ -18,6 +18,7 @@
 		C3C958B822D1914C00A68931 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C958B722D1914C00A68931 /* Budget.swift */; };
 		C3C958BA22D1915A00A68931 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C958B922D1915A00A68931 /* Expense.swift */; };
 		C3C958BC22D1922000A68931 /* RecurringFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C958BB22D1922000A68931 /* RecurringFrequency.swift */; };
+		C3C958BE22D1973C00A68931 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C958BD22D1973C00A68931 /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C3C958B722D1914C00A68931 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		C3C958B922D1915A00A68931 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		C3C958BB22D1922000A68931 /* RecurringFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringFrequency.swift; sourceTree = "<group>"; };
+		C3C958BD22D1973C00A68931 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				C330D10A22D118B100C88079 /* LaunchScreen.storyboard */,
 				C330D10D22D118B100C88079 /* Info.plist */,
 				C330D10522D118AF00C88079 /* Budgit.xcdatamodeld */,
+				C3C958BD22D1973C00A68931 /* Session.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C958BE22D1973C00A68931 /* Session.swift in Sources */,
 				C3C958BC22D1922000A68931 /* RecurringFrequency.swift in Sources */,
 				C330D10122D118AF00C88079 /* DashboardViewController.swift in Sources */,
 				C330D10722D118AF00C88079 /* Budgit.xcdatamodeld in Sources */,
